@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>receipt</title>
+</head>
+<style>
+    body {
+        font-family: calibri;
+    }
+
+    /*navigasi*/
+    .navigasi {
+        background-color: #453887;
+        padding: 2%;
+    }
+
+    .teksReceipt {
+        color: white;
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+
+    /*resi*/
+    .resi {
+        width: 40%;
+        margin-left: 25%;
+        margin-top: 2%;
+        padding: 2%;
+    }
+
+    /*profile psikolog*/
+
+    .gambar-psikolog {
+        width: 10%;
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+
+    .nama-psikolog {
+        margin-left: 42%;
+        margin-top: -8%;
+    }
+
+    .rate-psikolog {
+        width: 8%;
+        margin-left: 41.5%;
+        margin-top: -1%;
+        display: block;
+    }
+
+    .logo-lokasi {
+        width: 2%;
+        margin-left: 41.5%;
+        margin-top: 1%;
+        display: block;
+
+    }
+
+    .alamat-psikolog {
+        width: 20%;
+        margin-left: 42%;
+        margin-top: -4%;
+        padding: 2%;
+    }
+
+    /*biodata pasien*/
+    h3 {
+        margin-left: 35%;
+    }
+
+    h4 {
+        background-color: #453887;
+        display: inline-block;
+        color: white;
+        padding: 1%;
+        border-radius: 10%;
+        margin-left: 45%;
+        margin-top: 3%;
+    }
+
+    h4:hover {
+        box-shadow: 0 0 20px #453887;
+    }
+
+    /*Contact Us*/
+    .slide4 {
+        background-color: #453887;
+        margin-top: 5%;
+    }
+
+    .logoJikuSlide4 {
+        width: 15%;
+
+    }
+
+
+    table {
+        width: 100%;
+        text-align: left;
+        margin-top: -5%;
+    }
+
+    td {
+        color: white;
+    }
+
+    th {
+        color: rgb(233, 230, 230);
+    }
+
+    .aboutMe {
+        margin-left: 15%;
+        margin-top: -6%;
+        padding: 2%;
+    }
+
+    .logoLokasi,
+    .logoWhatsapp,
+    .logoInstagram,
+    .logoPhone,
+    .logoEmail {
+        width: 8%;
+        margin-top: 2%;
+        display: inline-block;
+    }
+
+    /*Ukuran Mobile*/
+    @media only screen and (max-width:550px) {
+
+        /*navigasi*/
+        .navigasi {
+            padding: 7%;
+        }
+
+        .teksReceipt {
+            margin-left: 40%;
+            margin-top: 1%;
+            font-size: 130%;
+        }
+
+        /*resi*/
+        .resi {
+            width: 70%;
+            margin-left: 12%;
+            margin-top: 2%;
+            padding: 5%;
+        }
+
+        /*profile psikolog*/
+
+        .gambar-psikolog {
+            width: 15%;
+            margin-left: 18%;
+            margin-top: 5%;
+        }
+
+        .nama-psikolog {
+            margin-left: 38%;
+            margin-top: -13%;
+        }
+
+        .rate-psikolog {
+            width: 20%;
+            margin-left: 37%;
+            margin-top: -3%;
+            display: block;
+        }
+
+        .logo-lokasi {
+            width: 4%;
+            margin-left: 37%;
+            margin-top: 3%;
+            display: block;
+
+        }
+
+        .alamat-psikolog {
+            width: 50%;
+            margin-left: 40%;
+            margin-top: -6%;
+            padding: 2%;
+            font-size: 90%;
+        }
+
+        /*biodata pasien*/
+        h3 {
+            margin-left: 25%;
+            font-size: 90%;
+        }
+
+        h4 {
+            background-color: #453887;
+            display: inline-block;
+            color: white;
+            padding: 1%;
+            border-radius: 10%;
+            margin-left: 45%;
+            margin-top: 3%;
+        }
+
+        h4:hover {
+            box-shadow: 0 0 20px #453887;
+        }
+
+
+        /*Contact Us*/
+        .slide4 {
+            background-color: #453887;
+            margin-top: 5%;
+        }
+
+        .logoJikuSlide4 {
+            width: 18%;
+
+        }
+
+
+        table {
+            width: 120%;
+            text-align: left;
+            margin-top: -5%;
+            font-size: 65%;
+        }
+
+        td {
+            color: white;
+        }
+
+        th {
+            color: rgb(233, 230, 230);
+        }
+
+        .aboutMe {
+            margin-left: 2%;
+            margin-top: 2%;
+        }
+
+    }
+</style>
+
+<body>
+    <!--Navigasi-->
+    <div class="navigasi">
+        <h1 class="teksReceipt">E-Receipt</h1>
+    </div>
+
+    <!--resi-->
+    <div>
+        <img class="resi" src="../property/resi.png" alt="">
+    </div>
+
+    <!--profile psikolog-->
+    <hr>
+    <div class="profile-psikolog">
+
+        <img class="gambar-psikolog" src="../property/psikolog 3.png" alt="">
+        <h3 class="nama-psikolog">Dra. Dewi Kumaladewi, M.Psi</h3>
+        <img class="rate-psikolog" src="../property/bintang 3.png" alt="">
+        <img class="logo-lokasi" src="../property/logo-lokasi.png" alt="">
+        <p class="alamat-psikolog">Jalan Purwakarta No.148, Antapani Kidul, Kec. Antapani, Kota Bandung, Jawa Barat
+            40291</p>
+    </div>
+    <hr>
+
+    <div class="biodata-pasien">
+        <h3>Name:</h3>
+        <h3>Gender:</h3>
+        <h3>Age:</h3>
+        <h3>Room:</h3>
+        <a href="./afterLoginPasien.html">
+            <h4>Done</h4>
+        </a>
+
+    </div>
+
+    <!--Contact Us-->
+    <div id="contact" class="slide4">
+        <img class="logoJikuSlide4" src="../property/logo.png" alt="">
+        <div class="aboutMe">
+            <table>
+                <tr>
+                    <th>Contact</th>
+                    <th>Call Center</th>
+                    <th>Social Media</th>
+                </tr>
+
+                <tr>
+                    <td><img class="logoLokasi" src="../property/logo lokasi.png" alt=""> Bandung, Jawa Barat</td>
+                    <td><img class="logoPhone" src="../property/logo phone.png" alt=""> +6289 1615 1243</td>
+                    <td><img class="logoEmail" src="../property/logo email.png" alt=""> callcenter@jiku.co.id</td>
+                </tr>
+                <tr>
+                    <td><img class="logoWhatsapp" src="../property/logo whatsapp.png" alt=""> 0852 1310 5087</td>
+                </tr>
+                <tr>
+                    <td><img class="logoInstagram" src="../property/logo instagram.png" alt=""> Instagram</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
