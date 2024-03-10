@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+        body {
+            font-family: calibri;
+        }
+
+        .header {
+            background-color: #453887;
+            padding: 2%;
+        }
+
+        .logoProfile {
+            width: 4%;
+            margin-left: 45%;
+            margin-top: 2%;
+        }
+
+        .teksProfile {
+            color: white;
+            margin-left: 50%;
+            margin-top: -3.5%;
+        }
+
+        /*biodata pengguna*/
+        .edit {
+            margin-left: 70%;
+            margin-top: 12%;
+            width: 2%;
+        }
+
+        .fotoProfile {
+            width: 15%;
+            margin-top: -4%;
+            margin-left: 25%;
+        }
+
+        .nama {
+            margin-left: 45%;
+            margin-top: -15%;
+        }
+
+        .done {
+            background-color: #453887;
+            color: white;
+            display: block;
+            width: 5%;
+            padding: 0.8%;
+            border-radius: 4%;
+            margin-left: 45%;
+            margin-top: 5%;
+            text-align: center;
+
+        }
+
+        .done:hover {
+            box-shadow: 0 0 20px #453887;
+        }
+
+        .logout {
+            background-color: #453887;
+            color: white;
+            display: block;
+            width: 5%;
+            padding: 0.8%;
+            border-radius: 4%;
+            margin-left: 45%;
+            margin-top: 2%;
+            text-align: center;
+        }
+
+        .logout:hover {
+            box-shadow: 0 0 20px #453887;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h4 {
+            margin-left: 45%;
+            margin-top: 2%;
+        }
+
+        .alamat {
+            width: 30%;
+        }
+
+        /*Contact Us*/
+        .slide4 {
+            background-color: #453887;
+            margin-top: 15%;
+        }
+
+        .logoJikuSlide4 {
+            width: 15%;
+
+        }
+
+
+        table {
+            width: 100%;
+            text-align: left;
+            margin-top: -5%;
+        }
+
+        td {
+            color: white;
+        }
+
+        th {
+            color: rgb(233, 230, 230);
+        }
+
+        .aboutMe {
+            margin-left: 15%;
+            margin-top: -6%;
+            padding: 2%;
+        }
+
+        .logoLokasi,
+        .logoWhatsapp,
+        .logoInstagram,
+        .logoPhone,
+        .logoEmail {
+            width: 8%;
+            margin-top: 2%;
+            display: inline-block;
+        }
+
+        /*Ukuran Mobile*/
+        @media only screen and (max-width:550px) {
+
+
+            .logoProfile {
+                width: 8%;
+                margin-left: 48%;
+                margin-top: 2%;
+            }
+
+            .teksProfile {
+                margin-left: 45%;
+                margin-top: -1%;
+                font-size: 150%;
+            }
+
+            /*biodata pengguna*/
+            .edit {
+                margin-left: 90%;
+                margin-top: 20%;
+                width: 5%;
+            }
+
+            .fotoProfile {
+                width: 20%;
+                margin-top: -13%;
+                margin-left: 12%;
+            }
+
+            .nama {
+                margin-left: 35%;
+                margin-top: -15%;
+                font-size: 150%;
+            }
+
+            h4 {
+                margin-left: 35%;
+                font-size: 90%;
+                line-height: 2%;
+            }
+            .done{
+                width: 12%;
+                margin-top: 10%;
+            }
+            .logout{
+                width: 12%;
+                margin-top: 2%;
+            }
+            .alamat {
+                width: 50%;
+                line-height: 100%;
+            }
+
+
+            /*Contact Us*/
+            .slide4 {
+                background-color: #453887;
+                margin-top: 35%;
+            }
+
+            .logoJikuSlide4 {
+                width: 18%;
+
+            }
+
+
+            table {
+                width: 120%;
+                text-align: left;
+                margin-top: -5%;
+                font-size: 65%;
+            }
+
+            td {
+                color: white;
+            }
+
+            th {
+                color: rgb(233, 230, 230);
+            }
+
+            .aboutMe {
+                margin-left: 2%;
+                margin-top: 2%;
+            }
+
+
+            .logoProfileEditProfil {
+                width: 8%;
+                margin-left: 48%;
+                margin-top: 2%;
+            }
+
+            .teksProfileEditProfil {
+                margin-left: 46%;
+                margin-top: -1%;
+                font-size: 130%;
+            }
+
+
+            h4 {
+                margin-left: 45%;
+            }
+
+            .buttonEditProfil {
+                padding: 1%;
+                border-radius: 10%;
+                margin-left: 58%;
+                margin-top: 15%;
+                font-size: 90%;
+            }
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <img class="logoProfile" src="../property/logo profile.png" alt="">
+        <h1 class="teksProfile">Profile</h1>
+    </div>
+
+    <!--Biodata Pengguna-->
+    <a href="./editProfilePasien.html">
+        <img class="edit" src="../property/logo edit.png" alt="">
+    </a>
+
+    <div class="biodata">
+        <img class="fotoProfile" src="../property/profile.png" alt="">
+        <h1 id="namaProfile" class="nama">Kasih Mariana</h1>
+        <h4 id="birthDateProfile" class="birth-date">Birth-Date: </h4>
+        <h4 id="telpProfile" class="telp">Telp Number: </h4>
+        <h4 id="alamatProfile" class="alamat">Address: </h4>
+        <a class="berandaLink" href="./afterLoginPasien.html">
+            <h3 class="done">Done</h3>
+        </a>
+        <a href="../register.html">
+            <h3 class="logout">LogOut</h3>
+        </a>
+    </div>
+
+    <!--Contact Us-->
+    <div id="contact" class="slide4">
+        <img class="logoJikuSlide4" src="../property/logo.png" alt="">
+        <div class="aboutMe">
+            <table>
+                <tr>
+                    <th>Contact</th>
+                    <th>Call Center</th>
+                    <th>Social Media</th>
+                </tr>
+
+                <tr>
+                    <td><img class="logoLokasi" src="../property/logo lokasi.png" alt=""> Bandung, Jawa Barat</td>
+                    <td><img class="logoPhone" src="../property/logo phone.png" alt=""> +6289 1615 1243</td>
+                    <td><img class="logoEmail" src="../property/logo email.png" alt=""> callcenter@jiku.co.id</td>
+                </tr>
+                <tr>
+                    <td><img class="logoWhatsapp" src="../property/logo whatsapp.png" alt=""> 0852 1310 5087</td>
+                </tr>
+                <tr>
+                    <td><img class="logoInstagram" src="../property/logo instagram.png" alt=""> Instagram</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        // Ambil nilai dari URL
+        var params = new URLSearchParams(window.location.search);
+        var nama = params.get("nama");
+        var birthDate = params.get("birthDate");
+        var telp = params.get("telp");
+        var alamat = params.get("alamat");
+
+        // Update nilai pada elemen profile.html
+        document.getElementById("namaProfile").innerHTML = nama;
+        document.getElementById("birthDateProfile").innerHTML = "Birth-Date: " + birthDate;
+        document.getElementById("telpProfile").innerHTML = "Telp Number: " + telp;
+        document.getElementById("alamatProfile").innerHTML = "Address: " + alamat;
+    </script>
+
+
+
+</body>
+
+</html>

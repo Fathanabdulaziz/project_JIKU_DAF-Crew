@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <style>
+        body {
+            font-family: calibri;
+        }
+
+        .header {
+            background-color: #453887;
+            padding: 2%;
+        }
+
+        .logoProfile {
+            width: 4%;
+            margin-left: 45%;
+            margin-top: 2%;
+        }
+
+        .teksProfile {
+            color: white;
+            margin-left: 50%;
+            margin-top: -3.5%;
+        }
+
+        /*biodata pengguna*/
+
+        .fotoProfile {
+            width: 15%;
+            margin-top: 10%;
+            margin-left: 25%;
+        }
+
+        .nama {
+            margin-left: 45%;
+            margin-top: -14%;
+            display: block;
+        }
+
+        .birth-date {
+            margin-left: 45%;
+            margin-top: 2%;
+            display: block;
+        }
+
+        .telp {
+            margin-left: 45%;
+            margin-top: 2%;
+            display: block;
+        }
+
+        .alamat {
+            margin-left: 45%;
+            margin-top: 2%;
+            display: block;
+        }
+
+        h4 {
+            margin-left: 45%;
+        }
+
+        .button {
+            background-color: #453887;
+            display: inline-block;
+            color: white;
+            padding: 1%;
+            border-radius: 10%;
+            margin-left: 49.5%;
+            margin-top: 5%;
+        }
+
+        .button:hover {
+            box-shadow: 0 0 30px #453887;
+        }
+
+        /*Contact Us*/
+        .slide4 {
+            background-color: #453887;
+            margin-top: 15%;
+        }
+
+        .logoJikuSlide4 {
+            width: 15%;
+
+        }
+
+
+        table {
+            width: 100%;
+            text-align: left;
+            margin-top: -5%;
+        }
+
+        td {
+            color: white;
+        }
+
+        th {
+            color: rgb(233, 230, 230);
+        }
+
+        .aboutMe {
+            margin-left: 15%;
+            margin-top: -6%;
+            padding: 2%;
+        }
+
+        .logoLokasi,
+        .logoWhatsapp,
+        .logoInstagram,
+        .logoPhone,
+        .logoEmail {
+            width: 8%;
+            margin-top: 2%;
+            display: inline-block;
+        }
+
+        /*Ukuran Mobile*/
+        @media only screen and (max-width:550px) {
+
+            .logoProfile {
+                width: 8%;
+                margin-left: 48%;
+                margin-top: 2%;
+            }
+
+            .teksProfile {
+                margin-left: 46%;
+                margin-top: -1%;
+                font-size: 130%;
+            }
+
+
+            h4 {
+                margin-left: 45%;
+            }
+
+            .button {
+                padding: 1%;
+                border-radius: 10%;
+                margin-left: 58%;
+                margin-top: 15%;
+                font-size: 90%;
+            }
+
+            .button {
+                margin-left: 53%;
+                padding: 2%;
+            }
+
+
+            /*Contact Us*/
+            .slide4 {
+                width: 98%;
+                margin-top: 35%;
+                margin-left: -2%;
+                padding: 2%;
+            }
+
+            .logoJikuSlide4 {
+                width: 20%;
+
+
+            }
+
+            table {
+                width: 100%;
+                text-align: left;
+                margin-top: -15%;
+            }
+
+            th {
+                color: rgb(233, 230, 230);
+
+                font-size: smaller;
+
+            }
+
+            td {
+                color: white;
+                font-size: smaller;
+            }
+
+
+            .aboutMe {
+                margin-left: 25%;
+                margin-top: -6%;
+                font-size: smaller;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <img class="logoProfile" src="../property/logo profile.png" alt="">
+        <h1 class="teksProfile">Profile</h1>
+    </div>
+
+    <!--Biodata Pengguna-->
+
+    <div class="biodata">
+        <img class="fotoProfile" src="../property/profile.png" alt="">
+        <input id="inputNama" class="nama" type="name" placeholder="Nama">
+        <input id="inputBirthDate" class="birth-date" type="name" placeholder="Birth Date">
+        <input id="inputTelp" class="telp" type="name" placeholder="Telp Number">
+        <input id="inputAlamat" class="alamat" type="name" placeholder="Address">
+
+        <a href="./editProfilePasien.html" id="profileLink">
+            <h3 class="button" onclick="updateProfile()">Save</h3>
+        </a>
+
+
+
+    </div>
+
+    <!--Contact Us-->
+    <div id="contact" class="slide4">
+        <img class="logoJikuSlide4" src="../property/logo.png" alt="">
+        <div class="aboutMe">
+            <table>
+                <tr>
+                    <th>Contact</th>
+                    <th>Call Center</th>
+                    <th>Social Media</th>
+                </tr>
+
+                <tr>
+                    <td><img class="logoLokasi" src="../property/logo lokasi.png" alt=""> Bandung, Jawa Barat</td>
+                    <td><img class="logoPhone" src="../property/logo phone.png" alt=""> +6289 1615 1243</td>
+                    <td><img class="logoEmail" src="../property/logo email.png" alt=""> callcenter@jiku.co.id</td>
+                </tr>
+                <tr>
+                    <td><img class="logoWhatsapp" src="../property/logo whatsapp.png" alt=""> 0852 1310 5087</td>
+                </tr>
+                <tr>
+                    <td><img class="logoInstagram" src="../property/logo instagram.png" alt=""> Instagram</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script>
+        function updateProfile() {
+            // Ambil nilai dari input pada editProfile.html
+            var nama = document.getElementById("inputNama").value;
+            var birthDate = document.getElementById("inputBirthDate").value;
+            var telp = document.getElementById("inputTelp").value;
+            var alamat = document.getElementById("inputAlamat").value;
+
+            // Update nilai pada profile.html menggunakan window.location
+            var profileLink = document.getElementById("profileLink");
+            profileLink.href = "./profilePasien.html" +
+                "?nama=" + encodeURIComponent(nama) +
+                "&birthDate=" + encodeURIComponent(birthDate) +
+                "&telp=" + encodeURIComponent(telp) +
+                "&alamat=" + encodeURIComponent(alamat);
+        }
+    </script>
+
+</body>
+
+</html>

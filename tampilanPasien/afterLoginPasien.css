@@ -1,0 +1,637 @@
+body {
+    font-family: calibri;
+}
+
+/*Navigasi Bar*/
+.navigasi {
+    background-color: rgb(237, 235, 235);
+    width: 100%;
+    position: fixed;
+    margin-top: -8%;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    margin-top: 2%;
+    padding: 0; 
+    margin-bottom: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 2% 3%;
+    font-weight: bolder;
+    color: #453887;
+    font-size: 130%;
+}
+a:hover{
+    color: #988f;
+}
+.navBar:hover {
+    color: #988f;
+}
+
+.logoJiku {
+    border-radius: 50%;
+    width: 5%;
+    float: left;
+    margin-top: 6.5%;
+    margin-left: 2%;
+}
+a{
+    color: #453887;
+}
+.profileLogo{
+    width: 10%;
+}
+.gambarProfile{
+    width: 5%;
+    margin-top: 6%; 
+    margin-right: 3%;
+}
+/*Slide 1*/
+.bcgslide1 {
+    margin-top: -1.3%;
+    width: 100%;
+}
+
+.orangBeranda {
+    width: 45%;
+    margin-left: 55%;
+    margin-top: -50%;
+}
+
+hr {
+    border-bottom: 5px solid #453887;
+    margin-top: -2.5%;
+}
+
+.welcomeText {
+    margin-top: -55%;
+    margin-left: 10%;
+    color: white;
+    font-size: 280%;
+}
+
+.jikuText {
+    margin-left: 20%;
+}
+
+.deskripsiText {
+    width: 35%;
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: large;
+}
+
+
+/**Slide 2*/
+.bcgSlide2 {
+    width: 100%;
+    margin-top: 21%;
+}
+
+.boxText {
+    margin-top: -66%;
+    color: white;
+    margin-left: 3%;
+    line-height: 20%;
+    font-size: 130%;
+}
+
+/*Fitur Psikolog*/
+.fiturPsikolog {
+    background-color: rgb(192, 191, 191);
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 30%;
+    margin-top: 5%;
+    padding: 0.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 8%;
+    line-height: 2%;
+    border-radius: 3%;
+}
+
+a{
+    text-decoration: none;
+}
+.logoPsikolog {
+    width: 80%;
+}
+
+.fiturPsikolog:hover {
+    box-shadow: 0 0 30px #453887;
+}
+
+.psikologText {
+    width: 20%;
+    color: black;
+}
+
+/*Fitur History*/
+.fiturHistory {
+    background-color: rgb(192, 191, 191);
+    display: inline-block;
+    margin-top: -5%;
+    padding: 0.5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 8%;
+    line-height: 2%;
+    border-radius: 3%;
+}
+
+.fiturHistory:hover {
+    box-shadow: 0 0 30px #453887;
+}
+
+.logoHistory {
+    width: 100%;
+}
+
+.historyText {
+    width: 20%;
+    color: black;
+    margin-left: 22%;
+}
+
+
+/*Fitur Rating*/
+.fiturRating {
+    background-color: rgb(192, 191, 191);
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 45%;
+    padding: 0.8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 8%;
+    line-height: 2%;
+    border-radius: 3%;
+}
+
+.fiturRating:hover {
+    box-shadow: 0 0 30px #453887;
+}
+
+.logoRating {
+    width: 55%;
+    margin-left: 20%;
+}
+
+.ratingText {
+    width: 20%;
+    color: black;
+    margin-left: 22%;
+}
+
+
+/*Slide 3*/
+.textSlide3 {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.gambarBox1 {
+    width: 15%;
+    margin-left: 2%;
+
+}
+
+.box1 {
+    text-align: center;
+    border-style: groove;
+    display: inline-block;
+    width: 30%;
+    padding: 2%;
+    margin-left: 38%;
+    margin-top: 2%;
+}
+
+.gambarBox2 {
+    width: 15%;
+    margin-left: 2%;
+}
+
+.box2 {
+    text-align: center;
+    border-style: groove;
+    display: inline-block;
+    width: 30%;
+    padding: 2%;
+    margin-left: 38%;
+    margin-top: 5%;
+
+}
+
+.gambarBox3 {
+    width: 15%;
+    margin-left: 2%;
+
+}
+
+.box3 {
+    text-align: center;
+    border-style: groove;
+    display: inline-block;
+    width: 30%;
+    padding: 2%;
+    margin-left: 38%;
+    margin-top: 5%;
+
+}
+
+/*Slide 4*/
+.slide4 {
+    background-color: #453887;
+    margin-top: 5%;
+}
+
+.logoJikuSlide4 {
+    width: 10%;
+
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-top: -2%;
+}
+
+td {
+    color: white;
+}
+
+th {
+    color: rgb(233, 230, 230);
+}
+
+.aboutMe {
+    margin-left: 15%;
+    margin-top: -6%;
+    padding: 2%;
+}
+.logoLokasi,
+.logoWhatsapp,
+.logoInstagram,
+.logoPhone,
+.logoEmail {
+    width: 8%;
+    margin-top: 2%;
+    display: inline-block;
+}
+/*Ukuran Mobile*/
+@media only screen and (max-width:550px) {
+
+    /*Navigasi Bar*/
+    .navigasi {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        display: inline;
+        padding: 1%;
+        font-size: 80%;
+        margin-right: 4%;
+
+    }
+
+    .navBar:hover {
+        color: #988fc0;
+    }
+
+    .logoJiku {
+        border-radius: 50%;
+        width: 8%;
+        float: left;
+        margin-top: 5%;
+        margin-left: 2%;
+        padding: 1%;
+    }
+
+    .login {
+
+        width: 4%;
+        margin-right: 5%;
+    }
+
+    .login:hover {
+        background-color: #aba4cd;
+        color: #453887;
+    }
+
+    /*Slide 1*/
+    .slide1 {
+        width: 100%;
+    }
+
+    .orangBeranda {
+        width: 45%;
+        margin-left: 60%;
+        margin-top: -43%;
+        display: block;
+    }
+
+    hr {
+        border-bottom: 3px solid #453887;
+        margin-top: -3%;
+    }
+
+    .welcomeText {
+        margin-top: -45%;
+        font-size: 110%;
+    }
+
+    .jikuText {
+        margin-left: 20%;
+        width: 15%;
+    }
+
+    .deskripsiText {
+        width: 40%;
+        color: white;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 60%;
+    }
+
+
+
+    /**Slide 2*/
+    .slide2 {
+        width: 100%;
+        font-size: smaller;
+        margin-top: 2%;
+    }
+
+    .bcgSlide2 {
+        width: 100%;
+        margin-top: 14%;
+        display: block;
+    }
+
+    .boxText {
+        margin-top: -65%;
+        font-size: 70%;
+        margin-left: 8%;
+    }
+
+    /*Fitur Psikolog*/
+    .fiturPsikolog {
+        width: 5%;
+        margin-left: 35%;
+    }
+
+    .logoPsikolog {
+        width: 150%;
+    }
+
+    .psikologText {
+        color: black;
+        margin-left: -40%;
+        font-size: small;
+        display: block;
+
+    }
+
+    /*Fitur History*/
+    .fiturHistory {
+        width: 5.5%;
+        margin-left: 70%;
+        margin-top: -12%;
+        display: block;
+    }
+
+    .logoHistory {
+        width: 150%;
+        margin-left: -12%;
+    }
+
+    .historyText {
+        width: 20%;
+        color: black;
+        margin-left: -10%;
+        font-size: small;
+
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    /*Fitur Rating*/
+    .fiturRating {
+        width: 5%;
+        display: block;
+        margin-left: 52%;
+    }
+
+    .logoRating {
+        width: 100%;
+        margin-left: -2%;
+    }
+
+    .ratingText {
+        width: 20%;
+        color: black;
+        margin-left: -5%;
+        font-size: small;
+    }
+
+    .textSlide3 {
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    /*Slide 3*/
+    .textSlide3 {
+        font-size: large;
+        width: 45%;
+        margin-top: 15%;
+        margin-left: 30%;
+    }
+
+    .gambarBox1 {
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    .box1 {
+        width: 45%;
+        padding: 2%;
+        margin-left: 28%;
+        margin-top: 2%;
+    }
+
+    .gambarBox2 {
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .box2 {
+        width: 45%;
+        padding: 2%;
+        margin-left: 28%;
+        margin-top: 5%;
+
+    }
+
+    .gambarBox3 {
+        width: 25%;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    .box3 {
+        width: 45%;
+        padding: 2%;
+        margin-left: 28%;
+        margin-top: 5%;
+    }
+
+        
+    /*slide 4*/
+    .slide4 {
+        width: 104%;
+        margin-top: 10%;
+        margin-left: -2%;
+        padding: 2%;
+    }
+
+    .logoJikuSlide4 {
+        width: 20%;
+
+
+    }
+
+    table {
+        width: 100%;
+        text-align: left;
+        margin-top: -15%;
+    }
+
+    th {
+        color: rgb(233, 230, 230);
+
+        font-size: smaller;
+
+    }
+
+    td {
+        color: white;
+        font-size: smaller;
+    }
+
+
+    .aboutMe {
+        margin-left: 25%;
+        margin-top: -6%;
+        font-size: smaller;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+    .bcgSlide2 {
+        width: 100%;
+        margin-top: 8%;
+        display: block;
+    }
+
+    /*Slide 3*/
+    .textSlide3 {
+        font-size: large;
+        width: 45%;
+        margin-top: 15%;
+        margin-left: 35%;
+    }
+
+
+    .box1 {
+        width: 35%;
+        padding: 2%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+
+    .box2 {
+        width: 35%;
+        padding: 2%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+
+    .box3 {
+        width: 35%;
+        padding: 2%;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+
+    /*Slide 4*/
+    .slide4 {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .logoJikuSlide4 {
+        width: 20%;
+
+    }
+
+    table {
+        width: 100%;
+        text-align: left;
+        margin-top: -15%;
+        padding: 5%;
+        margin-left: -10%;
+    }
+
+    th {
+        color: rgb(233, 230, 230);
+
+        font-size: smaller;
+
+    }
+
+    td {
+        color: white;
+        font-size: smaller;
+    }
+
+
+    .aboutMe {
+        margin-left: 25%;
+        margin-top: -6%;
+        font-size: smaller;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .bcgSlide2 {
+        width: 100%;
+        margin-top: -1.5%;
+        display: block;
+    }
+}
+a{
+    text-decoration: none;
+}

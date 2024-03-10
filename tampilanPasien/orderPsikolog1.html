@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Psikolog</title>
+</head>
+<style>
+    body {
+        font-family: calibri;
+    }
+
+    .gambarPsikolog {
+        width: 10%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .namaPsikolog {
+        margin-left: 8.5%;
+    }
+
+    .ratePsikolog {
+        width: 10%;
+        margin-left: 8%;
+        margin-top: -1%;
+        display: block;
+    }
+
+    .logoLokasiPsikolog {
+        width: 2%;
+        margin-left: 8%;
+        margin-top: 1%;
+        display: block;
+
+    }
+
+    .alamatPsikolog {
+        width: 20%;
+        margin-left: 9%;
+        margin-top: -4%;
+        padding: 2%;
+    }
+
+    /*Order Form*/
+    .orderForm {
+        background-color: #352973;
+        padding: 20% 18%;
+        margin-top: -28.5%;
+        margin-left: 34%;
+        width: 30%;
+        font-size: 180%;
+        border-radius: 6%;
+        color: white;
+
+    }
+
+    /*date*/
+    .dateTimeTeks {
+        margin-top: -40%;
+        margin-left: -30%;
+
+    }
+
+    .dateTime {
+        width: 30%;
+        padding: 2%;
+        border-radius: 2%;
+        font-family: calibri;
+        margin-left: -30%;
+        margin-top: -5%;
+        display: block;
+    }
+
+    /*time*/
+    .timeBox {
+        background-color: white;
+        width: 60%;
+        padding-top: -1%;
+        border-radius: 10%;
+        margin-top: 6%;
+        margin-left: -29%;
+
+    }
+
+    ul {
+        list-style: none;
+        margin-left: 4%;
+        margin-top: 2%;
+        padding: 2%;
+        line-height: 80%;
+    }
+
+    li {
+        display: inline-block;
+        color: white;
+        border-radius: 10%;
+        margin-left: 5%;
+        font-size: 70%;
+        background-color: #453887;
+        padding: 1%;
+    }
+
+    /*nama*/
+    .nameText {
+        margin-left: 70%;
+        margin-top: -80%;
+    }
+
+    .name {
+        margin-left: 70%;
+        margin-top: -6%;
+        padding: 2%;
+        display: block;
+    }
+
+    /*gender*/
+    .genderText {
+        margin-left: 70%;
+        margin-top: 10%;
+    }
+
+    .gender1choice {
+        margin-left: 70%;
+        margin-top: -5.3%;
+        display: block;
+    }
+
+    .gender2choice {
+        margin-left: 100%;
+        margin-top: -10%;
+        display: block;
+    }
+
+    .male {
+        margin-left: 78%;
+        font-size: 70%;
+        margin-top: -5.5%;
+        color: white;
+    }
+
+    .female {
+        margin-left: 108%;
+        font-size: 70%;
+        margin-top: -5%;
+
+    }
+
+    /*age*/
+    .ageText {
+        margin-left: 70%;
+        margin-top: 10%;
+    }
+
+    .age {
+        margin-left: 70%;
+        margin-top: -5.3%;
+        display: block;
+        padding: 2%;
+    }
+
+    /*button*/
+    .bookingButton {
+        color: #352973;
+        background-color: white;
+        display: inline-block;
+        padding: 2%;
+        border-radius: 5%;
+        margin-left: 80%;
+        margin-top: 25%;
+        width: 30%;
+        box-shadow: 0 0 3px white;
+    }
+
+    .bookingButton:hover {
+        box-shadow: 0 0 30px #ffffff;
+    }
+
+    /*Contact Us*/
+    .slide4 {
+        background-color: #453887;
+        margin-top: 5%;
+    }
+
+    .logoJikuSlide4 {
+        width: 15%;
+
+    }
+
+
+    table {
+        width: 100%;
+        text-align: left;
+        margin-top: -5%;
+    }
+
+    td {
+        color: white;
+    }
+
+    th {
+        color: rgb(233, 230, 230);
+    }
+
+    .aboutMe {
+        margin-left: 15%;
+        margin-top: -6%;
+        padding: 2%;
+    }
+
+    .logoLokasi,
+    .logoWhatsapp,
+    .logoInstagram,
+    .logoPhone,
+    .logoEmail {
+        width: 8%;
+        margin-top: 2%;
+        display: inline-block;
+    }
+
+    .logoLokasi {
+        margin-left: 1%;
+    }
+
+    /*Ukuran Mobile*/
+    @media only screen and (max-width:550px) {
+        .gambarPsikolog {
+            width: 20%;
+            margin-left: 8%;
+            margin-top: 5%;
+        }
+
+        .namaPsikolog {
+            margin-left: 35%;
+            margin-top: -20%;
+            font-size: 100%;
+        }
+
+        .ratePsikolog {
+            width: 20%;
+            margin-left: 35%;
+            margin-top: -2%;
+            display: block;
+        }
+
+        .logoLokasiPsikolog {
+            width: 5%;
+            margin-left: 33%;
+            margin-top: 2%;
+
+        }
+
+        .alamatPsikolog {
+            width: 50%;
+            margin-left: 38%;
+            margin-top: -7%;
+            padding: 2%;
+            font-size: 90%;
+        }
+
+        /*Order Form*/
+        .orderForm {
+            background-color: #352973;
+            padding: 37%;
+            margin-top: 18%;
+            margin-left: -2%;
+            width: 30%;
+            font-size: 100%;
+            border-radius: 1.5%;
+            color: white;
+
+        }
+
+        /*date*/
+        .dateTimeTeks {
+            margin-top: -60%;
+            margin-left: -70%;
+            font-size: 90%;
+
+        }
+
+        .dateTime {
+            width: 100%;
+            padding: 15%;
+            margin-left: -70%;
+            margin-top: -15%;
+            display: block;
+        }
+
+        /*time*/
+        .timeBox {
+            background-color: white;
+            width: 130%;
+            padding-top: 2%;
+            border-radius: 3%;
+            margin-top: 10%;
+            margin-left: -68%;
+            padding-left: -20%;
+
+        }
+
+
+        li {
+            margin-left: 9%;
+            font-size: 70%;
+        }
+
+        /*nama*/
+        .nameText {
+            margin-top: 40%;
+            margin-left: -70%;
+            font-size: 90%;
+
+        }
+
+        .name {
+            margin-left: -70%;
+            margin-top: -18%;
+            padding: 5%;
+            display: block;
+        }
+
+        /*gender*/
+        .genderText {
+            margin-top: 40%;
+            margin-left: -70%;
+            font-size: 90%;
+        }
+
+        .gender1choice {
+            margin-left: -70%;
+            margin-top: -15%;
+            display: block;
+        }
+
+        .gender2choice {
+            margin-left: 20%;
+            margin-top: -23%;
+            display: block;
+        }
+
+        .male {
+            margin-left: -50%;
+            font-size: 85%;
+            margin-top: -12%;
+            color: white;
+        }
+
+        .female {
+            margin-left: 40%;
+            font-size: 85%;
+            margin-top: -12%;
+            color: white;
+
+        }
+
+        /*age*/
+        .ageText {
+            margin-top: 40%;
+            margin-left: -70%;
+            font-size: 90%;
+        }
+
+        .age {
+            margin-left: -70%;
+            margin-top: -15%;
+            padding: 5%;
+            display: block;
+        }
+
+        /*button*/
+        .bookingButton {
+            display: inline-block;
+            padding: 10%;
+            border-radius: 5%;
+            margin-left: 12%;
+            margin-top: 90%;
+            width: 70%;
+            font-size: 90%;
+            text-align: center;
+        }
+
+
+        /*Contact Us*/
+        .slide4 {
+            background-color: #453887;
+            margin-top: -5%;
+            width: 104%;
+            margin-left: -2%;
+        }
+        .logoJikuSlide4 {
+            width: 18%;
+
+        }
+
+
+        table {
+            width: 120%;
+            text-align: left;
+            margin-top: -5%;
+            font-size: 65%;
+        }
+
+        td {
+            color: white;
+        }
+
+        th {
+            color: rgb(233, 230, 230);
+        }
+
+        .aboutMe {
+            margin-left: 2%;
+            margin-top: 2%;
+        }
+
+    }
+</style>
+
+<body>
+
+    <div class="profilePsikolog">
+
+        <img class="gambarPsikolog" src="../property/psikolog 1.png" alt="">
+        <h3 class="namaPsikolog">Firman Rismanto, S.Psi.,M.Psi.</h3>
+        <img class="ratePsikolog" src="../property/bintang 5.png" alt="">
+        <img class="logoLokasiPsikolog" src="../property/logo-lokasi.png" alt="">
+        <p class="alamatPsikolog">Graha Mulia Sejahtera, Jl. Terusan Jakarta No.175 A, Antapani Kulon, Kec. Antapani,
+            Kota Bandung, Jawa Barat 40291 F</p>
+
+    </div>
+
+    <!--Order Form-->
+    <div class="orderForm">
+        <form action="./rincian1.html"></form>
+
+        <!--date-->
+        <h6 class="dateTimeTeks">Date and Time</h6>
+        <input class="dateTime" type="date">
+
+        <!--time-->
+        <div class="timeBox">
+            <ul>
+                <li>08.00</li>
+                <li>09.00</li>
+                <li>10.00</li>
+            </ul>
+            <ul>
+                <li>11.15</li>
+                <li>13.00</li>
+                <li>14.00</li>
+            </ul>
+            <ul>
+                <li>15.10</li>
+                <li>16.15</li>
+                <li>17.00</li>
+            </ul>
+        </div>
+
+        <!--name-->
+        <div class="nameBox">
+            <h6 class="nameText">Your Name</h6>
+            <input class="name" type="name">
+        </div>
+
+        <!--gender-->
+        <div class="genderBox">
+            <h6 class="genderText">Gender</h6>
+            <div class="choiceBox">
+                <input class="gender1choice" type="radio">
+                <p class="male">Male</p>
+                <input class="gender2choice" type="radio">
+                <p class="female">Female</p>
+            </div>
+        </div>
+
+        <!--age-->
+        <div class="ageBox">
+            <h6 class="ageText">Age</h6>
+            <input class="age" type="age">
+        </div>
+
+        <!--booking now-->
+        <a href="./rincian1.html">
+            <h6 class="bookingButton">Booking Now</h6>
+        </a>
+    </div>
+
+    <!--Contact Us-->
+    <div id="contact" class="slide4">
+        <img class="logoJikuSlide4" src="../property/logo.png" alt="">
+        <div class="aboutMe">
+            <table>
+                <tr>
+                    <th>Contact</th>
+                    <th>Call Center</th>
+                    <th>Social Media</th>
+                </tr>
+
+                <tr>
+                    <td><img class="logoLokasi" src="../property/logo lokasi.png" alt=""> Bandung, Jawa Barat</td>
+                    <td><img class="logoPhone" src="../property/logo phone.png" alt=""> +6289 1615 1243</td>
+                    <td><img class="logoEmail" src="../property/logo email.png" alt=""> callcenter@jiku.co.id</td>
+                </tr>
+                <tr>
+                    <td><img class="logoWhatsapp" src="../property/logo whatsapp.png" alt=""> 0852 1310 5087</td>
+                </tr>
+                <tr>
+                    <td><img class="logoInstagram" src="../property/logo instagram.png" alt=""> Instagram</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>

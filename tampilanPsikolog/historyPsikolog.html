@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: calibri;
+
+        }
+
+        .box {
+            background-color: #352973;
+        }
+
+        .header {
+            background-color: rgb(237, 235, 235);
+            padding: 2%;
+        }
+
+        .logoHistory {
+            width: 4%;
+            margin-left: 45%;
+            margin-top: 2%;
+        }
+
+        .teksHistory {
+            color: #453887;
+            margin-left: 50%;
+            margin-top: -3.5%;
+        }
+
+        .back {
+            margin-top: -5%;
+            display: block;
+        }
+
+        /*History pengguna*/
+        .daftarPasien {
+            background-color: #D9D9D9;
+            border-radius: 1%;
+            display: inline-block;
+            width: 50%;
+            padding: 2%;
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+
+        .ratingNow {
+            color: #453887;
+            margin-left: 80%;
+            margin-top: -15%;
+            width: 100%;
+            display: block;
+
+        }
+
+        a {
+            color: #453887;
+        }
+
+        .Pasien {
+            width: 10%;
+            margin-top: 5%;
+            border: #453887;
+        }
+
+        .namaPasien {
+            margin-top: -6%;
+            margin-left: 15%;
+        }
+
+        .logoLokasiPasien {
+            width: 4%;
+            margin-left: 14%;
+            margin-top: 1%;
+            display: block;
+
+        }
+
+       p{
+        margin-left: 15%;
+       }
+
+        /*Contact Us*/
+        .slide4 {
+            background-color: #453887;
+            margin-top: 15%;
+        }
+
+        .logoJikuSlide4 {
+            width: 15%;
+
+        }
+
+
+        table {
+            width: 100%;
+            text-align: left;
+            margin-top: -5%;
+        }
+
+        td {
+            color: white;
+        }
+
+        th {
+            color: rgb(233, 230, 230);
+        }
+
+        .aboutMe {
+            margin-left: 15%;
+            margin-top: -6%;
+            padding: 2%;
+        }
+
+        .logoLokasi,
+        .logoWhatsapp,
+        .logoInstagram,
+        .logoPhone,
+        .logoEmail {
+            width: 8%;
+            margin-top: 2%;
+            display: inline-block;
+        }
+
+        /*Ukuran Mobile*/
+        @media only screen and (max-width:550px) {
+
+            .header {
+                padding: 2%;
+            }
+
+            .logoHistory {
+                width: 8%;
+                margin-left: 48%;
+                margin-top: 2%;
+            }
+
+            .teksHistory {
+                color: #453887;
+                margin-left: 43%;
+                margin-top: -1%;
+                font-size: 150%;
+            }
+
+            /*History pengguna*/
+            .daftarPasien {
+                width: 55%;
+                padding: 3%;
+                margin-top: 5%;
+                margin-left: 20%;
+            }
+
+            .ratingNow {
+                margin-left: 70%;
+                margin-top: -30%;
+                width: 100%;
+                display: block;
+
+            }
+
+            .pasien {
+                width: 20%;
+                margin-top: 5%;
+            }
+            .birth-datePasien{
+                margin-left:5% ;
+                font-size: 80%;
+                margin-top: 10%;
+            }
+            .genderPasien{
+                margin-left:5% ;
+                font-size: 80%;
+            }
+            .agePasien{
+                margin-left:5% ;
+                font-size: 80%;
+            }
+            .datetimePasien{
+                margin-left:5% ;
+                font-size: 80%;
+            }
+
+            .namaPasien {
+                margin-top: -2%;
+                margin-left: 22%;
+                font-size: 90%;
+            }
+
+            .logoLokasi {
+                width: 7%;
+                margin-left: 21%;
+                margin-top: 1%;
+
+            }
+
+            .alamatPasien {
+                width: 80%;
+                margin-left: 27%;
+                margin-top: -8%;
+                padding: 1%;
+                font-size: 70%;
+            }
+
+
+            /*slide 4*/
+            .slide4 {
+                width: 96.1%;
+                margin-top: 30%;
+                padding: 2%;
+            }
+
+            .logoJikuSlide4 {
+                width: 20%;
+
+
+            }
+
+            table {
+                width: 100%;
+                text-align: left;
+                margin-top: -15%;
+            }
+
+            th {
+                font-size: smaller;
+
+            }
+
+            td {
+                font-size: smaller;
+
+            }
+
+            .aboutMe {
+                margin-left: 25%;
+                margin-top: -6%;
+                font-size: smaller;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!--Header-->
+        <div class="header">
+            <img class="logoHistory" src="../property/logo history.png" alt="">
+            <h1 class="teksHistory">History</h1>
+            <a href="./afterLoginPsikolog.html">
+                <img class="back" src="../property/tombol kembali.png" alt="">
+            </a>
+        </div>
+
+        <!--History Pengguna-->
+        <div class="daftarPasien">
+            <img class="pasien" src="../property/profile.png" alt="">
+            <a href="./ratingPsikolog.html">
+                <h5 class="ratingNow">See Rating Now</h5>
+            </a>
+
+            <h2 class="namaPasien">Kasih Mariana</h2>
+            <p class="birth-datePasien">Birth-Date : Bandung, 26 Februari 2004</p>
+            <p class="genderPasien">Gender : Female</p>
+            <p class="agePasien">Age : 20 Tahun</p>
+            <p class="datetimePasien">Date & Time : 07/10/2023 - 13:00</p>
+
+        </div>
+        <div class="daftarPasien">
+            <img class="pasien" src="../property/profile.png" alt="">
+            <a href="./ratingPsikolog.html">
+                <h5 class="ratingNow">See Rating Now</h5>
+            </a>
+
+            <h2 class="namaPasien">Kasih Mariana</h2>
+            <p class="birth-datePasien">Birth-Date : Bandung, 26 Februari 2004</p>
+            <p class="genderPasien">Gender : Female</p>
+            <p class="agePasien">Age : 20 Tahun</p>
+            <p class="date&timePasien">Date & Time : 07/10/2023 - 13:00</p>
+
+        </div>
+       
+
+        <!--Contact Us-->
+        <div id="contact" class="slide4">
+            <img class="logoJikuSlide4" src="../property/logo.png" alt="">
+            <div class="aboutMe">
+                <table>
+                    <tr>
+                        <th>Contact</th>
+                        <th>Call Center</th>
+                        <th>Social Media</th>
+                    </tr>
+
+                    <tr>
+                        <td><img class="logoLokasi" src="../property/logo lokasi.png" alt=""> Bandung, Jawa Barat</td>
+                        <td><img class="logoPhone" src="../property/logo phone.png" alt=""> +6289 1615 1243</td>
+                        <td><img class="logoEmail" src="../property/logo email.png" alt=""> callcenter@jiku.co.id</td>
+                    </tr>
+                    <tr>
+                        <td><img class="logoWhatsapp" src="../property/logo whatsapp.png" alt=""> 0852 1310 5087</td>
+                    </tr>
+                    <tr>
+                        <td><img class="logoInstagram" src="../property/logo instagram.png" alt=""> Instagram</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+</body>
+
+</html>

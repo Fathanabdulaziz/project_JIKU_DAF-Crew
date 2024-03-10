@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+    <style>
+        body {
+            font-family: calibri;
+
+        }
+
+        .box {
+            background-color: rgb(237, 235, 235);
+        }
+
+        .header {
+            background-color: #453887;
+            padding: 2%;
+        }
+
+        .logoRating {
+            width: 3%;
+            margin-left: 45%;
+            margin-top: 2%;
+        }
+
+        .teksRating {
+            color: white;
+            margin-left: 50%;
+            margin-top: -3.5%;
+        }
+
+        .back {
+            margin-top: -5%;
+            display: block;
+        }
+
+        /*History pengguna*/
+        .daftarPasien {
+            background-color: white;
+            border-radius: 1%;
+            display: inline-block;
+            width: 50%;
+            padding: 2%;
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+
+        .rate {
+            width: 20%;
+            margin-left: 12%;
+            display: block;
+            margin-top: -3%;
+        }
+
+        .ceklis {
+            width: 5%;
+            margin-left: 95%;
+            margin-top: 5%;
+            display: block;
+        }
+
+        a {
+            color: #453887;
+        }
+
+        .pasien {
+            width: 10%;
+            margin-top: 1%;
+            border: #453887;
+        }
+
+        .namaPasien {
+            margin-top: -12%;
+            margin-left: 12%;
+            font-size: 140%;
+            display: block;
+        }
+
+        /*Contact Us*/
+        .slide4 {
+            background-color: #453887;
+            margin-top: 12%;
+        }
+
+        .logoJikuSlide4 {
+            width: 15%;
+
+        }
+
+
+        table {
+            width: 100%;
+            text-align: left;
+            margin-top: -5%;
+        }
+
+        td {
+            color: white;
+        }
+
+        th {
+            color: rgb(233, 230, 230);
+        }
+
+        .aboutMe {
+            margin-left: 15%;
+            margin-top: -6%;
+            padding: 2%;
+        }
+
+        .logoLokasi,
+        .logoWhatsapp,
+        .logoInstagram,
+        .logoPhone,
+        .logoEmail {
+            width: 8%;
+            margin-top: 2%;
+            display: inline-block;
+        }
+
+        /*Ukuran Mobile*/
+        @media only screen and (max-width:550px) {
+            .header {
+                padding: 2%;
+            }
+
+            .logoRating {
+                width: 6%;
+                margin-left: 49%;
+                margin-top: 2%;
+            }
+
+            .teksRating {
+                margin-left: 46%;
+                margin-top: 0.5%;
+                font-size: 120%;
+            }
+
+            /*History pengguna*/
+            .daftarPasien {
+                width: 50%;
+                padding: 6%;
+                margin-top: 5%;
+                margin-left: 18%;
+            }
+            .namaPasien {
+                margin-top: -20%;
+                margin-left: 25%;
+                font-size: 90%;
+            }
+            .rate {
+                width: 30%;
+                margin-left: 25%;
+                display: block;
+                margin-top: -3%;
+            }
+
+            .pasien {
+                width: 20%;
+                margin-top: -5%;
+                border: #453887;
+            }
+
+            
+
+            /*Contact Us*/
+            .slide4 {
+                background-color: #453887;
+                margin-top: 30%;
+            }
+
+            .logoJikuSlide4 {
+                width: 18%;
+
+            }
+
+
+            table {
+                width: 120%;
+                text-align: left;
+                margin-top: -5%;
+                font-size: 65%;
+            }
+
+            td {
+                color: white;
+            }
+
+            th {
+                color: rgb(233, 230, 230);
+            }
+
+            .aboutMe {
+                margin-left: 2%;
+                margin-top: 2%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!--Header-->
+        <div class="header">
+            <img class="logoRating" src="../property/star.png" alt="">
+            <h1 class="teksRating">Rating</h1>
+            <a href="./afterLoginPsikolog.html">
+                <img class="back" src="../property/tombol kembali.png" alt="">
+            </a>
+        </div>
+
+        <!--History Pengguna-->
+
+        <div class="daftarPasien">
+            <img class="pasien" src="../property/profile.png" alt="">
+            <h3 class="namaPasien">Kasih Mariana</h3>
+            <img class="rate" src="../property/bintang 5.png" alt="">
+        </div>
+        <div class="daftarPasien">
+            <img class="pasien" src="../property/profile.png" alt="">
+            <h3 class="namaPasien">Kasih Mariana</h3>
+            <img class="rate" src="../property/bintang 5.png" alt="">
+        </div>
+       
+       
+        <!--Contact Us-->
+        <div id="contact" class="slide4">
+            <img class="logoJikuSlide4" src="../property/logo.png" alt="">
+            <div class="aboutMe">
+                <table>
+                    <tr>
+                        <th>Contact</th>
+                        <th>Call Center</th>
+                        <th>Social Media</th>
+                    </tr>
+
+                    <tr>
+                        <td><img class="logoLokasi" src="../property/logo lokasi.png" alt=""> Bandung, Jawa Barat</td>
+                        <td><img class="logoPhone" src="../property/logo phone.png" alt=""> +6289 1615 1243</td>
+                        <td><img class="logoEmail" src="../property/logo email.png" alt=""> callcenter@jiku.co.id</td>
+                    </tr>
+                    <tr>
+                        <td><img class="logoWhatsapp" src="../property/logo whatsapp.png" alt=""> 0852 1310 5087</td>
+                    </tr>
+                    <tr>
+                        <td><img class="logoInstagram" src="../property/logo instagram.png" alt=""> Instagram</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+</body>
+
+</html>
