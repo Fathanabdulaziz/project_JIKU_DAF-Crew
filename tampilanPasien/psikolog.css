@@ -1,0 +1,226 @@
+body {
+    font-family: calibri;
+}
+
+/*navigasi*/
+.bagianAtas {
+    background-color: #453887;
+    padding: 2%;
+}
+
+.logoPsikolog {
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 3%;
+}
+
+.teksPsikolog {
+    color: white;
+    margin-left: 45%;
+    margin-top: -3.5%;
+}
+
+.tombolKembali {
+    margin-left: -43%;
+}
+
+/**Daftar Psikolog**/
+.daftarDokter {
+    background-color: #D9D9D9;
+    border-radius: 1%;
+    display: inline-block;
+    width: 65%;
+    padding: 4%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.psikolog {
+    width: 10%;
+    margin-top: -2%;
+    border: #453887;
+}
+
+.namaPsikolog {
+    margin-top: -10%;
+    margin-left: 15%;
+}
+
+.daerah {
+    margin-left: 15%;
+    margin-top: -1%;
+}
+
+.rate {
+    width: 20%;
+    margin-left: 14%;
+    margin-top: 2%;
+}
+
+.rate3 {
+    width: 12%;
+    margin-left: 14%;
+    margin-top: 2%;
+}
+
+.rate4 {
+    width: 16%;
+    margin-left: 14%;
+    margin-top: 2%;
+}
+
+.ikon-selengkapnya1,
+.ikon-selengkapnya2,
+.ikon-selengkapnya3,
+.ikon-selengkapnya4 {
+    width: 4%;
+    margin-left: 92%;
+
+}
+
+/*Contact Us*/
+.slide4 {
+    background-color: #453887;
+    margin-top: 5%;
+}
+
+.logoJikuSlide4 {
+    width: 15%;
+
+}
+
+
+table {
+    width: 100%;
+    text-align: left;
+    margin-top: -5%;
+}
+
+td {
+    color: white;
+}
+
+th {
+    color: rgb(233, 230, 230);
+}
+
+.aboutMe {
+    margin-left: 15%;
+    margin-top: -6%;
+    padding: 2%;
+}
+
+.logoLokasi,
+.logoWhatsapp,
+.logoInstagram,
+.logoPhone,
+.logoEmail {
+    width: 8%;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+/*Ukuran Mobile*/
+@media only screen and (max-width:550px) {
+
+    /*navigasi*/
+    .logoPsikolog {
+        margin-left: 45%;
+        width: 7%;
+    }
+
+    .teksPsikolog {
+        color: white;
+        margin-left: 40%;
+        margin-top: 2%;
+        font-size: 130%;
+    }
+
+    .tombolKembali {
+        margin-left: -52%;
+    }
+
+    /**Daftar Psikolog**/
+    .daftarDokter {
+        width: 55%;
+        padding: 4%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    .psikolog {
+        width: 25%;
+        margin-top: -2%;
+    }
+
+    .namaPsikolog {
+        margin-top: -25%;
+        margin-left: 30%;
+        font-size: 100%;
+    }
+
+    .daerah {
+        margin-left: 30%;
+        margin-top: -5%;
+        font-size: 80%;
+    }
+
+    .rate {
+        width: 30%;
+        margin-left: 29%;
+        margin-top: 2%;
+    }
+
+    .rate3 {
+        width: 20%;
+        margin-left: 29%;
+    }
+
+    .rate4 {
+        width: 28%;
+        margin-left: 29%;
+        margin-top: 2%;
+    }
+
+    .ikon-selengkapnya1,
+    .ikon-selengkapnya2,
+    .ikon-selengkapnya3,
+    .ikon-selengkapnya4 {
+        width: 6%;
+        margin-left: 92%;
+
+    }
+
+    /*Contact Us*/
+    .slide4 {
+        background-color: #453887;
+        margin-top: 5%;
+    }
+
+    .logoJikuSlide4 {
+        width: 18%;
+
+    }
+
+
+    table {
+        width: 120%;
+        text-align: left;
+        margin-top: -5%;
+        font-size: 65%;
+    }
+
+    td {
+        color: white;
+    }
+
+    th {
+        color: rgb(233, 230, 230);
+    }
+
+    .aboutMe {
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+}
