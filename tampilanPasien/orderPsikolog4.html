@@ -4,177 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Psikolog</title>
+    <title>receipt</title>
 </head>
 <style>
     body {
         font-family: calibri;
     }
 
-    .gambarPsikolog {
+    /*navigasi*/
+    .navigasi {
+        background-color: #453887;
+        padding: 2%;
+    }
+
+    .teksReceipt {
+        color: white;
+        margin-left: 45%;
+        margin-top: 1%;
+    }
+
+    /*resi*/
+    h1 {
+        font-size: 250%;
+        margin-left: 45%;
+        margin-top: 2%;
+        padding: 2%;
+    }
+    /*profile psikolog*/
+
+    .gambar-psikolog {
         width: 10%;
-        margin-left: 15%;
+        margin-left: 30%;
         margin-top: 5%;
     }
 
-    .namaPsikolog {
-        margin-left: 8.5%;
+    .nama-psikolog {
+        margin-left: 42%;
+        margin-top: -8%;
     }
 
-    .ratePsikolog {
-        width: 10%;
-        margin-left: 8%;
+    .rate-psikolog {
+        width: 8%;
+        margin-left: 41.5%;
         margin-top: -1%;
         display: block;
     }
 
-    .logoLokasiPsikolog {
+    .logo-lokasi {
         width: 2%;
-        margin-left: 8%;
+        margin-left: 41.5%;
         margin-top: 1%;
         display: block;
 
     }
 
-    .alamatPsikolog {
+    .alamat-psikolog {
         width: 20%;
-        margin-left: 9%;
+        margin-left: 42%;
         margin-top: -4%;
         padding: 2%;
     }
 
-    /*Order Form*/
-    .orderForm {
-        background-color: #352973;
-        padding: 20% 18%;
-        margin-top: -28.5%;
-        margin-left: 34%;
-        width: 30%;
-        font-size: 180%;
-        border-radius: 6%;
-        color: white;
-
+    /*biodata pasien*/
+    h3 {
+        margin-left: 35%;
     }
 
-    /*date*/
-    .dateTimeTeks {
-        margin-top: -40%;
-        margin-left: -30%;
-
-    }
-
-    .dateTime {
-        width: 30%;
-        padding: 2%;
-        border-radius: 2%;
-        font-family: calibri;
-        margin-left: -30%;
-        margin-top: -5%;
-        display: block;
-    }
-
-    /*time*/
-    .timeBox {
-        background-color: white;
-        width: 60%;
-        padding-top: -1%;
-        border-radius: 10%;
-        margin-top: 6%;
-        margin-left: -29%;
-
-    }
-
-    ul {
-        list-style: none;
-        margin-left: 4%;
-        margin-top: 2%;
-        padding: 2%;
-        line-height: 80%;
-    }
-
-    li {
-        display: inline-block;
-        color: white;
-        border-radius: 10%;
-        margin-left: 5%;
-        font-size: 70%;
+    h4 {
         background-color: #453887;
-        padding: 1%;
-    }
-
-    /*nama*/
-    .nameText {
-        margin-left: 70%;
-        margin-top: -80%;
-    }
-
-    .name {
-        margin-left: 70%;
-        margin-top: -6%;
-        padding: 2%;
-        display: block;
-    }
-
-    /*gender*/
-    .genderText {
-        margin-left: 70%;
-        margin-top: 10%;
-    }
-
-    .gender1choice {
-        margin-left: 70%;
-        margin-top: -5.3%;
-        display: block;
-    }
-
-    .gender2choice {
-        margin-left: 100%;
-        margin-top: -10%;
-        display: block;
-    }
-
-    .male {
-        margin-left: 78%;
-        font-size: 70%;
-        margin-top: -5.5%;
-        color: white;
-    }
-
-    .female {
-        margin-left: 108%;
-        font-size: 70%;
-        margin-top: -5%;
-
-    }
-
-    /*age*/
-    .ageText {
-        margin-left: 70%;
-        margin-top: 10%;
-    }
-
-    .age {
-        margin-left: 70%;
-        margin-top: -5.3%;
-        display: block;
-        padding: 2%;
-    }
-
-    /*button*/
-    .bookingButton {
-        color: #352973;
-        background-color: white;
         display: inline-block;
-        padding: 2%;
-        border-radius: 5%;
-        margin-left: 80%;
-        margin-top: 25%;
-        width: 30%;
-        box-shadow: 0 0 3px white;
+        color: white;
+        padding: 1%;
+        border-radius: 10%;
+        margin-left: 45%;
+        margin-top: 3%;
     }
 
-    .bookingButton:hover {
-        box-shadow: 0 0 30px #ffffff;
+    h4:hover {
+        box-shadow: 0 0 20px #453887;
     }
 
     /*Contact Us*/
@@ -221,169 +128,87 @@
 
     /*Ukuran Mobile*/
     @media only screen and (max-width:550px) {
-        .gambarPsikolog {
-            width: 20%;
-            margin-left: 8%;
+
+        /*navigasi*/
+        .navigasi {
+            padding: 7%;
+        }
+
+        .teksReceipt {
+            margin-left: 40%;
+            margin-top: 1%;
+            font-size: 130%;
+        }
+
+        /*resi*/
+        .resi {
+            width: 70%;
+            margin-left: 12%;
+            margin-top: 2%;
+            padding: 5%;
+        }
+
+        /*profile psikolog*/
+
+        .gambar-psikolog {
+            width: 15%;
+            margin-left: 18%;
             margin-top: 5%;
         }
 
-        .namaPsikolog {
-            margin-left: 35%;
-            margin-top: -20%;
-            font-size: 100%;
+        .nama-psikolog {
+            margin-left: 38%;
+            margin-top: -13%;
         }
 
-        .ratePsikolog {
+        .rate-psikolog {
             width: 20%;
-            margin-left: 35%;
-            margin-top: -2%;
+            margin-left: 37%;
+            margin-top: -3%;
             display: block;
         }
 
-        .logoLokasiPsikolog {
-            width: 5%;
-            margin-left: 33%;
-            margin-top: 2%;
+        .logo-lokasi {
+            width: 4%;
+            margin-left: 37%;
+            margin-top: 3%;
+            display: block;
 
         }
 
-        .alamatPsikolog {
+        .alamat-psikolog {
             width: 50%;
-            margin-left: 38%;
-            margin-top: -7%;
+            margin-left: 40%;
+            margin-top: -6%;
             padding: 2%;
             font-size: 90%;
         }
 
-        /*Order Form*/
-        .orderForm {
-            background-color: #352973;
-            padding: 37%;
-            margin-top: 18%;
-            margin-left: -2%;
-            width: 30%;
-            font-size: 100%;
-            border-radius: 1.5%;
-            color: white;
-
-        }
-
-        /*date*/
-        .dateTimeTeks {
-            margin-top: -60%;
-            margin-left: -70%;
-            font-size: 90%;
-
-        }
-
-        .dateTime {
-            width: 100%;
-            padding: 15%;
-            margin-left: -70%;
-            margin-top: -15%;
-            display: block;
-        }
-
-        /*time*/
-        .timeBox {
-            background-color: white;
-            width: 130%;
-            padding-top: 2%;
-            border-radius: 3%;
-            margin-top: 10%;
-            margin-left: -68%;
-            padding-left: -20%;
-
-        }
-
-
-        li {
-            margin-left: 9%;
-            font-size: 70%;
-        }
-
-        /*nama*/
-        .nameText {
-            margin-top: 40%;
-            margin-left: -70%;
-            font-size: 90%;
-
-        }
-
-        .name {
-            margin-left: -70%;
-            margin-top: -18%;
-            padding: 5%;
-            display: block;
-        }
-
-        /*gender*/
-        .genderText {
-            margin-top: 40%;
-            margin-left: -70%;
+        /*biodata pasien*/
+        h3 {
+            margin-left: 25%;
             font-size: 90%;
         }
 
-        .gender1choice {
-            margin-left: -70%;
-            margin-top: -15%;
-            display: block;
-        }
-
-        .gender2choice {
-            margin-left: 20%;
-            margin-top: -23%;
-            display: block;
-        }
-
-        .male {
-            margin-left: -50%;
-            font-size: 85%;
-            margin-top: -12%;
-            color: white;
-        }
-
-        .female {
-            margin-left: 40%;
-            font-size: 85%;
-            margin-top: -12%;
-            color: white;
-
-        }
-
-        /*age*/
-        .ageText {
-            margin-top: 40%;
-            margin-left: -70%;
-            font-size: 90%;
-        }
-
-        .age {
-            margin-left: -70%;
-            margin-top: -15%;
-            padding: 5%;
-            display: block;
-        }
-
-        /*button*/
-        .bookingButton {
+        h4 {
+            background-color: #453887;
             display: inline-block;
-            padding: 10%;
-            border-radius: 5%;
-            margin-left: 12%;
-            margin-top: 90%;
-            width: 70%;
-            font-size: 90%;
-            text-align: center;
+            color: white;
+            padding: 1%;
+            border-radius: 10%;
+            margin-left: 45%;
+            margin-top: 3%;
+        }
+
+        h4:hover {
+            box-shadow: 0 0 20px #453887;
         }
 
 
         /*Contact Us*/
         .slide4 {
             background-color: #453887;
-            margin-top: -5%;
-            width: 104%;
-            margin-left: -2%;
+            margin-top: 5%;
         }
 
         .logoJikuSlide4 {
@@ -416,72 +241,38 @@
 </style>
 
 <body>
-
-    <div class="profilePsikolog">
-
-        <img class="gambarPsikolog" src="../property/psikolog 3.png" alt="">
-        <h3 class="namaPsikolog">Dra. Dewi Kumaladewi, M.Psi</h3>
-        <img class="ratePsikolog" src="../property/bintang 3.png" alt="">
-        <img class="logoLokasiPsikolog" src="../property/logo-lokasi.png" alt="">
-        <p class="alamatPsikolog">Jalan Purwakarta No.148, Antapani Kidul, Kec. Antapani, Kota Bandung, Jawa Barat
-            40291</p>
-
+    <!--Navigasi-->
+    <div class="navigasi">
+        <h1 class="teksReceipt">E-Receipt</h1>
     </div>
 
-    <!--Order Form-->
-    <div class="orderForm">
-        <form action="./rincian4.html"></form>
+   <!--resi-->
+   <div>
+    <h1>472XXX</h1>
+</div>
 
-        <!--date-->
-        <h6 class="dateTimeTeks">Date and Time</h6>
-        <input class="dateTime" type="date">
+    <!--profile psikolog-->
+    <hr>
+    <div class="profile-psikolog">
 
-        <!--time-->
-        <div class="timeBox">
-            <ul>
-                <li>08.00</li>
-                <li>09.00</li>
-                <li>10.00</li>
-            </ul>
-            <ul>
-                <li>11.15</li>
-                <li>13.00</li>
-                <li>14.00</li>
-            </ul>
-            <ul>
-                <li>15.10</li>
-                <li>16.15</li>
-                <li>17.00</li>
-            </ul>
-        </div>
+        <img class="gambar-psikolog" src="../property/psikolog 3.png" alt="">
+        <h3 class="nama-psikolog">Dra. Dewi Kumaladewi, M.Psi</h3>
+        <img class="rate-psikolog" src="../property/bintang 3.png" alt="">
+        <img class="logo-lokasi" src="../property/logo-lokasi.png" alt="">
+        <p class="alamat-psikolog">Jalan Purwakarta No.148, Antapani Kidul, Kec. Antapani, Kota Bandung, Jawa Barat
+            40291</p>
+    </div>
+    <hr>
 
-        <!--name-->
-        <div class="nameBox">
-            <h6 class="nameText">Your Name</h6>
-            <input class="name" type="name">
-        </div>
-
-        <!--gender-->
-        <div class="genderBox">
-            <h6 class="genderText">Gender</h6>
-            <div class="choiceBox">
-                <input class="gender1choice" type="radio">
-                <p class="male">Male</p>
-                <input class="gender2choice" type="radio">
-                <p class="female">Female</p>
-            </div>
-        </div>
-
-        <!--age-->
-        <div class="ageBox">
-            <h6 class="ageText">Age</h6>
-            <input class="age" type="age">
-        </div>
-
-        <!--booking now-->
-        <a href="./rincian4.html">
-            <h6 class="bookingButton">Booking Now</h6>
+    <div class="biodata-pasien">
+        <h3>Name:</h3>
+        <h3>Gender:</h3>
+        <h3>Age:</h3>
+        <h3>Room:</h3>
+        <a href="./afterLoginPasien.html">
+            <h4>Done</h4>
         </a>
+
     </div>
 
     <!--Contact Us-->
